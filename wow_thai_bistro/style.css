@@ -81,7 +81,6 @@ button {
 
 header {
     background-color: #80262A;
-    height: 8.04rem;
 }
 
 footer {
@@ -132,6 +131,8 @@ header {
     top: 0rem;
     left:0rem;
     
+    padding-bottom: 1rem;
+    
 }
 
 #homeMain {
@@ -143,7 +144,7 @@ header {
 }
 
 #headerImg {
-    
+    height: 400px;
     background-image: url(header.jpg);
     background-position: center;
     background-size: cover;
@@ -167,7 +168,9 @@ aside {
 
 #buttonCenter{
     height: 50px;
-    margin-top: 20%;
+    display: flex;
+    margin-top:20%;
+    
     background-color: #80262A;
     box-shadow: 0px 0px 2px 2px #ffffff;
     
@@ -192,8 +195,8 @@ aside {
     display: grid;
     grid-template-columns: 25% 8% 25% 8% 25% 8%;
     
-    margin-left: 5%;
-    margin-right: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 .price {
@@ -224,7 +227,6 @@ aside {
     display: grid;
     grid-template-columns: 55% 45%;
     
-    column-count: 2;
     column-gap: 1.07rem;
     
 }

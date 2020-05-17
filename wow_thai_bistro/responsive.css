@@ -7,12 +7,15 @@
 @media screen and (max-width:600px){
     header {
         grid-template-columns: 100%;
+        padding-bottom: 1rem;
+        margin-left: 0%;
+        margin-right: 0%;
     }
     
     nav a {
         display: block;
         text-align: center;
-        padding: 0.51rem;
+        font-size: 1rem
     }
     
     #logo {
@@ -24,14 +27,53 @@
     }
     
     #buttonCenter {
-        grid-column: 1/2;
+        margin-top: 50%
     }
     
     footer {
-        display: block;
         text-align: center;
         padding: 0.54rem;
-        grid-template-columns: 100%;
+        grid-column: 1 / -1;
     }
     
+    #kiteButton {
+        margin-bottom: 1rem;
+    }
+    
+    .order {
+        display: block;
+    }
+
+    #introduction {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    
+    #menuMain {
+        grid-template-columns: 75% 25%;
+        width: 100%;
+        padding-right: 0;
+    }
+    
+    .oneCol {
+        grid-column: 1 / -1;
+    }
+    
+    .price {
+        padding-left: 0rem;
+    }
+    
+    #locationMain {
+        grid-template-columns: 100%;
+        width: 100%;
+    }
+    
+    #map {
+        margin-right: 5%;
+        max-width: 100%;
+    }
+    
+    aside {
+        margin-left: 5%
+    }
 }
