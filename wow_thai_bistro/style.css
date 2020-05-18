@@ -93,6 +93,10 @@ footer {
 
 /* === BOX MODEL === */
 
+img {
+    max-width: 100%;
+}
+
 main {
     padding-top: 7.55rem;
     
@@ -144,7 +148,7 @@ header {
 }
 
 #headerImg {
-    height: 400px;
+    height: 21.43rem;
     background-image: url(header.jpg);
     background-position: center;
     background-size: cover;
@@ -159,7 +163,7 @@ header {
 
 #introduction {
     margin-right: 0.54rem;
-    margin-left: 13%;
+    margin-left: 10%;
 }
 
 aside {
@@ -167,12 +171,12 @@ aside {
 }
 
 #buttonCenter{
-    height: 50px;
+    height: 2.68rem;
     display: flex;
     margin-top:20%;
     
     background-color: #80262A;
-    box-shadow: 0px 0px 2px 2px #ffffff;
+    box-shadow: 0rem 0rem 0.11rem 0.11rem #ffffff;
     
     font-family: 'Roboto', sans-serif;
     font-size: 1.29rem;
