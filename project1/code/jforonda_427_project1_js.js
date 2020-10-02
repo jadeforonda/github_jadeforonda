@@ -59,7 +59,7 @@ function setup() {
     
     textFont('Avenir', 32);
     textStyle(BOLD);
-    text('CLICK HERE TO BEGIN', 635, 120);
+    text('CLICK HERE TO ENTER A NEW WORLD', 530, 120);
 }
 
 function draw() {
@@ -106,7 +106,9 @@ function mousePressed() {
     //happy pets
     } else if ((mouseX > 727 && mouseX < 920) && (mouseY > 280 && mouseY < 570)) {
         image(happy, mouseX-80, mouseY-80);
-        text('I love you <3', 635, 620);
+        textFont('Avenir', 20);
+        textStyle(NORMAL);
+        text('I love you <3', 625, 620);
     //if you don't click what you're supposed to
     } else {
         textFont('Avenir', 12);
@@ -129,7 +131,7 @@ function keyPressed() {
     image(bg, 0, 100);
     textFont('Avenir', 32);
     textStyle(BOLD);
-    text('CLICK HERE TO BEGIN', 635, 120);
+    text('CLICK HERE TO ENTER A NEW WORLD', 530, 120);
 }
     
     
